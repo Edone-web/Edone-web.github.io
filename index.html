@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        .box1{
+            width: 600px;
+            height: 600px;
+            background-color: brown;
+        }
+        .box1 .box2{
+            width: 100px;
+            height: 100px;
+            background-color: burlywood;
+            margin-left: 0;      
+            transition: all 2s;
+        }
+        .box1 .box3{
+            width: 100px;
+            height: 100px;
+            background-color: chartreuse;
+            margin-left: 10px;
+
+            animation-name: text;
+            animation-duration: 3s;
+            animation-delay: 3s;
+            animation-timing-function: ease-in-out;
+            animation-iteration-count: 2;
+            animation-direction: normal;
+            animation-play-state: running;
+            animation-fill-mode: both;
+        }
+        .box1:hover .box2{
+            margin-left: 500px;
+        }
+        @keyframes text {
+            from{
+                margin-left: 0;
+                background-color: rebeccapurple;
+            }
+            to{
+                margin-left: 500px;
+                background-color: cadetblue;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="box1">
+        <div class="box2">box2</div>
+        <div class="box3">box3</div>
+    </div>
+</body>
+</html>
