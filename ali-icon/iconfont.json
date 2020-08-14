@@ -1,0 +1,58 @@
+{
+  "id": "2007381",
+  "name": "personal-web",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "705651",
+      "name": "爱心",
+      "font_class": "aixin1",
+      "unicode": "e602",
+      "unicode_decimal": 58882
+    },
+    {
+      "icon_id": "1261752",
+      "name": "github",
+      "font_class": "github",
+      "unicode": "e691",
+      "unicode_decimal": 59025
+    },
+    {
+      "icon_id": "1261764",
+      "name": "google",
+      "font_class": "google",
+      "unicode": "e69c",
+      "unicode_decimal": 59036
+    },
+    {
+      "icon_id": "8842763",
+      "name": "爱心",
+      "font_class": "aixin",
+      "unicode": "e636",
+      "unicode_decimal": 58934
+    },
+    {
+      "icon_id": "10746949",
+      "name": "youtube",
+      "font_class": "youtube",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "10918077",
+      "name": "bilibili-fill",
+      "font_class": "bilibili-fill",
+      "unicode": "e75c",
+      "unicode_decimal": 59228
+    },
+    {
+      "icon_id": "15307312",
+      "name": "百度",
+      "font_class": "baidu",
+      "unicode": "e63f",
+      "unicode_decimal": 58943
+    }
+  ]
+}

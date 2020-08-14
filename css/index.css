@@ -1,0 +1,108 @@
+/* 背景设置 */
+body{
+    background: url(../material/bac-img.jpg) no-repeat fixed;
+    background-size: cover;
+}
+
+a{
+    text-decoration: none;
+    color: #333;
+}
+/* 隐藏滚动条 */
+::-webkit-scrollbar{
+    display: none;
+}
+/* 文字 */
+header{
+    display: flex;
+    margin: 100px auto;
+    width: 300px;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+}
+header h1{
+    width: 100%;
+    line-height: 30px;
+    color: #333;
+    font-size: 20px;
+}
+/* 图标界面 */
+.icon-wrapper{
+    width: 600px;
+    height: 100px;
+    display: flex;
+    /* 图标界面位置 */
+    margin: -50px auto;
+    justify-content: center;
+    align-items: center;
+}
+.icon-wrapper li{
+    position: relative;
+    width: 80px;
+    height: 80px;
+}
+.icon-wrapper li a{
+    /* a位置 */
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    /* a背景色 */
+    background-color: #24292e;
+    color: #999;
+    /* a大小形状 */
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    /* a内容位置 */
+    line-height: 60px;
+    text-align: center;
+    /* 阴影 */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, .5),
+                inset -1px -1px 2px rgba(0, 0, 0, .5);
+    transition: all .5s;
+}
+/* 设置不同背景颜色 */
+.icon-wrapper li:nth-child(2) a{
+    background-color: #3CB4DD;
+}
+.icon-wrapper li:nth-child(3) a{
+    background-color: #4e6ef2;
+}
+.icon-wrapper li:nth-child(4) a{
+    background-color: #38A950;
+}
+.icon-wrapper li:nth-child(5) a{
+    background-color: #FF0000;
+}
+.icon-wrapper li:nth-child(6) a{
+    background-color: rgb(224, 213, 50);
+}
+/* 设置hover效果 */
+.icon-wrapper li a:hover{
+    top: -20px;
+    color: #e2e2e2;
+    box-shadow: 5px 20px 10px rgba(0, 0, 0, .5),
+                inset -1px -1px 2px rgba(0, 0, 0, .5);
+}
+
+/* 内圈 */
+/* .icon-wrapper li a::before{
+    content: '';
+    position: absolute;
+    top: 8px;
+    background: aqua;
+    bottom: 8px;
+    left: 8px;
+    right: 8px;
+    border-radius: 50%;
+} */
+
+.icon-wrapper li a i{
+    /* 图标大小 */
+    position: relative;
+    font-size: 30px;
+}
